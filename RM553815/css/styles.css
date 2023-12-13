@@ -1,0 +1,260 @@
+@media (min-width: 541px) {
+  .overflow-hidden {
+    overflow: hidden;
+  }
+
+  .form-page {
+    margin: 0% 30% 0 30%;
+    overflow: hidden;
+  }
+
+  .nav-link {
+    color: rgb(252, 251, 251);
+    overflow: hidden;
+  }
+
+  .btn-secondary {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+    overflow: hidden;
+  }
+
+  .logoG {
+    left: 60px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    height: 400px;
+    margin-top: -6%;
+    overflow: hidden;
+  }
+
+  .logoP {
+    display: none;
+  }
+}
+
+/* Samsung Galaxy A51/71 */
+@media (min-width: 450px) and (max-width: 540px) {
+  .overflow-hidden {
+    overflow: hidden;
+  }
+
+  .form-page {
+    margin: 0% 15% 0 15%;
+    overflow: hidden;
+    font-size: small;
+    margin-top: -2rem;
+  }
+
+  .form-control {
+    width: 18rem;
+    height: 2rem;
+    overflow: hidden;
+  }
+
+  .nav-link {
+    color: rgb(252, 251, 251);
+    overflow: hidden;
+  }
+
+  .btn-secondary {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+    overflow: hidden;
+  }
+
+  .logoP {
+    text-align: center;
+    margin-top: -8%;
+    overflow: hidden;
+  }
+
+  .logoG {
+    display: none;
+  }
+
+  .border-container {
+    margin-top: -1rem;
+  }
+}
+
+/* Iphone 14 Pro Max */
+@media (min-width: 420px) and (max-width: 449px) {
+  .overflow-hidden {
+    overflow: hidden;
+  }
+
+  .form-page {
+    margin: 0% 15% 0 15%;
+    overflow: hidden;
+    font-size: small;
+  }
+
+  .form-control {
+    width: 18rem;
+    height: 2rem;
+    overflow: hidden;
+  }
+
+  .nav-link {
+    color: rgb(252, 251, 251);
+    overflow: hidden;
+  }
+
+  .btn-secondary {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+    overflow: hidden;
+  }
+
+  .logoP {
+    text-align: center;
+    margin-top: -4%;
+    overflow: hidden;
+  }
+
+  .logoG {
+    display: none;
+  }
+
+  .border-container {
+    margin-top: -1rem;
+  }
+}
+
+/* Iphone XR */
+@media (min-width: 401px) and (max-width: 419px) {
+  .overflow-hidden {
+    overflow: hidden;
+  }
+
+  .form-page {
+    margin: 0% 15% 0 15%;
+    overflow: hidden;
+    font-size: small;
+  }
+
+  .form-control {
+    width: 18rem;
+    height: 2rem;
+    overflow: hidden;
+  }
+
+  .nav-link {
+    color: rgb(252, 251, 251);
+    overflow: hidden;
+  }
+
+  .btn-secondary {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+    overflow: hidden;
+  }
+
+  .logoP {
+    margin-top: -6%;
+    overflow: hidden;
+    margin-left: 22%;
+  }
+
+  .logoG {
+    display: none;
+  }
+}
+
+/* Iphone 12 PRO */
+@media (min-width: 377px) and (max-width: 400px) {
+  .overflow-hidden {
+    overflow: hidden;
+  }
+
+  .form-page {
+    margin: 0% 10% 0 16%;
+    overflow: hidden;
+    font-size: small;
+  }
+
+  .form-control {
+    width: 16rem;
+    height: 2rem;
+    overflow: hidden;
+  }
+
+  .nav-link {
+    color: rgb(252, 251, 251);
+    overflow: hidden;
+  }
+
+  .btn-secondary {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+    overflow: hidden;
+  }
+
+  .logoP {
+    margin-top: -6%;
+    overflow: hidden;
+    margin-left: 22%;
+  }
+  .logoG {
+    display: none;
+  }
+
+  .border-container {
+    margin-top: -1rem;
+  }
+}
+
+/* Iphone SE */
+@media (max-width: 376px) {
+  .overflow-hidden {
+    overflow: hidden;
+  }
+
+  .form-page {
+    margin: 0% 8% 0 16%;
+    overflow: hidden;
+    font-size: small;
+  }
+
+  .form-control {
+    width: 16rem;
+    height: 2rem;
+    overflow: hidden;
+  }
+
+  .btn-secondary {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+    overflow: hidden;
+  }
+
+  .logoP {
+    margin-top: -6%;
+    overflow: hidden;
+    margin-left: 22%;
+  }
+
+  .logoG {
+    display: none;
+  }
+}

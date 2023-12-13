@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PoupaTech</title>
+
+  <!-- Chamada  do CSS do BS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- Link para minha CSS -->
+  <link rel="stylesheet" href="./css/styles.css">
+
+</head>
+
+<body background="./assets/background.jpg">
+
+  <container class="overflow-hidden">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="logoG">
+      <img src="./assets/logo.jpg">
+    </div>
+
+    <div class="logoP">
+      <img src="./assets/logoP.webp">
+    </div>
+
+    <div class="border-container">
+      <form class="form-page">
+        <div class="mb-3">
+          <label for="exampleInputName" class="form-label">Nome Completo</label>
+          <input type="name" class="form-control" id="exampleInputName" aria-describedby="nameHelp">
+          <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Endereço de Email</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Senha</label>
+          <input type="password" class="form-control" id="exampleInputPassword1"
+            aria-describedby="exampleInputPassword1">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword2" class="form-label">Confirmar Senha</label>
+          <input type="password" class="form-control" id="exampleInputPassword2">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Eu concordo com os Termos, Condições e Política de
+            Privacidade</label>
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck2">
+          <label class="form-check-label" for="exampleCheck2">Desejo assinar a newsletter</label>
+        </div>
+        <div class="d-grid gap-2 col-6 mx-auto">
+          <button class="btn btn-secondary" type="button">Cadastrar</button>
+        </div>
+      </form>
+    </div>
+
+    <!--Chamada do JS do BS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+      </script>
+  </container>
+
+</body>
+
+</html>
